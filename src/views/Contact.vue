@@ -1,5 +1,6 @@
 <template>
   <MainLayout>
+    <FloatingMenu />
     <section
       class="relative min-h-screen py-32 px-6
              bg-gradient-to-b from-[#1b1630] via-[#120f24] to-[#0b0916]
@@ -142,8 +143,8 @@
           <div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-4">
             <p class="text-sm text-gray-400">
               O escríbenos a
-              <a href="mailto:contacto@techbrand.com" class="text-purple-400 hover:underline">
-                contacto@techbrand.com
+              <a href="mailto:contacto@Jixonix.com" class="text-purple-400 hover:underline">
+                contacto@Jixonix.com
               </a>
             </p>
 
@@ -163,4 +164,5 @@
 
 <script setup>
 import MainLayout from '../layouts/MainLayout.vue'
+import FloatingMenu from '../components/FloatingMenu.vue'
 </script>

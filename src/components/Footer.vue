@@ -80,21 +80,31 @@
     >
 
       <div class="flex items-center gap-3 text-white font-semibold">
-        <div class="w-8 h-8 rounded-full bg-purple-500"></div>
-        TechBrand
+        <div class="w-8 h-8 ">
+            <img
+                :src="logo"
+                alt="Logo Jixonix"
+                class="w-8 h-8 rounded-full object-cover"
+            />
+        </div>
+        Jixonix
       </div>
+
 
       <div class="flex flex-wrap items-center gap-6 text-sm">
         <a href="#" class="hover:text-purple-400">See what’s new</a>
         <a href="#" class="hover:text-purple-400">How it works</a>
         <a href="#" class="hover:text-purple-400">Watch tutorials</a>
         <a href="#" class="hover:text-purple-400">Talk to us</a>
-        <a href="#" class="hover:text-purple-400">Life at TechBrand</a>
+        <a href="#" class="hover:text-purple-400">Life at Jixonix</a>
       </div>
     </div>
 
     <p class="text-center text-sm text-gray-500 mt-10 pb-8">
-      © 2025 TechBrand. All rights reserved.
+      © 2025 Jixonix. All rights reserved.
     </p>
   </footer>
 </template>
+<script setup>
+import logo from '@/assets/images/logo.png'
+</script>

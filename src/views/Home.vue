@@ -1,5 +1,6 @@
 <template>
   <MainLayout>
+    <FloatingMenu />
     <section
       class="relative min-h-screen flex items-center justify-center text-center px-6
              bg-gradient-to-b from-[#1b1630] via-[#120f24] to-[#0b0916]
@@ -164,4 +165,5 @@
 
 <script setup>
 import MainLayout from '../layouts/MainLayout.vue'
+import FloatingMenu from '../components/FloatingMenu.vue'
 </script>
