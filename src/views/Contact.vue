@@ -1,9 +1,13 @@
+<script setup>
+import MainLayout from '../layouts/MainLayout.vue'
+
+</script>
+
 <template>
   <MainLayout>
-    <FloatingMenu />
+
     <section
       class="relative min-h-screen py-32 px-6
-             bg-gradient-to-b from-[#1b1630] via-[#120f24] to-[#0b0916]
              text-white overflow-hidden"
     >
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_left,rgba(168,85,247,0.18),transparent_60%)]"></div>
@@ -162,7 +166,4 @@
   </MainLayout>
 </template>
 
-<script setup>
-import MainLayout from '../layouts/MainLayout.vue'
-import FloatingMenu from '../components/FloatingMenu.vue'
-</script>
+

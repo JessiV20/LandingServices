@@ -1,17 +1,10 @@
 <template>
-  <footer
-    class="relative bg-gradient-to-b from-[#120f24] to-[#0b0916] text-gray-400 pt-24"
-  >
-
-    <div
-      class="absolute inset-0 bg-[radial-gradient(circle_at_bottom,rgba(168,85,247,0.15),transparent_60%)] pointer-events-none"
-    ></div>
-
-    <div class="relative max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-6 gap-12">
-
+  <footer class="relative text-gray-400 pt-24 w-full">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom,rgba(168,85,247,0.15),transparent_60%)] pointer-events-none"></div>
+    <div class="relative w-full px-6 gap-12 flex flex-row justify-between flex-wrap max-w-7xl mx-auto">
       <div>
-        <h4 class="text-white font-semibold mb-4">Product</h4>
-        <ul class="space-y-3 text-sm">
+        <h4 class="text-white font-semibold mb-4 text-2xl">Product</h4>
+        <ul class="space-y-2">
           <li><a href="#" class="hover:text-purple-400">Overview</a></li>
           <li><a href="#" class="hover:text-purple-400">Integrations</a></li>
           <li><a href="#" class="hover:text-purple-400">Solutions</a></li>
@@ -22,8 +15,8 @@
       </div>
 
       <div>
-        <h4 class="text-white font-semibold mb-4">Company</h4>
-        <ul class="space-y-3 text-sm">
+        <h4 class="text-white font-semibold mb-4 text-2xl">Company</h4>
+        <ul class="space-y-2">
           <li><a href="#" class="hover:text-purple-400">About</a></li>
           <li><a href="#" class="hover:text-purple-400">Careers</a></li>
           <li><a href="#" class="hover:text-purple-400">Press</a></li>
@@ -34,8 +27,8 @@
       </div>
 
       <div>
-        <h4 class="text-white font-semibold mb-4">Integrations</h4>
-        <ul class="space-y-3 text-sm">
+        <h4 class="text-white font-semibold mb-4 text-2xl">Integrations</h4>
+        <ul class="space-y-2">
           <li><a href="#" class="hover:text-purple-400">Slack</a></li>
           <li><a href="#" class="hover:text-purple-400">Trello</a></li>
           <li class="flex items-center gap-2">
@@ -49,8 +42,8 @@
       </div>
 
       <div>
-        <h4 class="text-white font-semibold mb-4">Resources</h4>
-        <ul class="space-y-3 text-sm">
+        <h4 class="text-white font-semibold mb-4 text-2xl">Resources</h4>
+        <ul class="space-y-2">
           <li><a href="#" class="hover:text-purple-400">Blog</a></li>
           <li><a href="#" class="hover:text-purple-400">Newsletter</a></li>
           <li><a href="#" class="hover:text-purple-400">Events</a></li>
@@ -61,8 +54,8 @@
       </div>
 
       <div>
-        <h4 class="text-white font-semibold mb-4">Legal</h4>
-        <ul class="space-y-3 text-sm">
+        <h4 class="text-white font-semibold mb-4 text-2xl">Legal</h4>
+        <ul class="space-y-2">
           <li><a href="#" class="hover:text-purple-400">Terms</a></li>
           <li><a href="#" class="hover:text-purple-400">Privacy</a></li>
           <li><a href="#" class="hover:text-purple-400">Cookies</a></li>

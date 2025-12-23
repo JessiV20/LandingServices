@@ -13,7 +13,7 @@
              transition-opacity duration-500"
     ></div>
 
-    <div class="relative z-10">
+    <div class="relative z-10 text-start">
       <div
         class="text-4xl mb-6 w-14 h-14 flex items-center justify-center
                rounded-xl bg-purple-500/20 text-purple-400
